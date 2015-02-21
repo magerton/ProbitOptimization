@@ -1,6 +1,4 @@
-# ProbitOptimization
-
-<h1>Probit optimization in Julia</h1>
+# Probit Optimization in Julia
 
 This is a simple MLE of a Probit model using Julia. Its main purpuse is to run through the various optimizers in the NLopt and Optim packages. Though it is is a simple problem, it is instructive.
 
