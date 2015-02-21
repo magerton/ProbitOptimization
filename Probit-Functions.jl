@@ -59,9 +59,10 @@ end
 function vcov(obj::Optim.OptimizationResults, h!)
 	β    = obj.minimum
 	k    = length(β)
+	N    = maximum(size(X))
 	hess = zeros((k,k))
 	h!(β, hess)
-	hess \ eye(k)
+	N*(hess \ eye(k))
 end
 
 function se(obj::Optim.OptimizationResults, h!)
