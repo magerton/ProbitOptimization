@@ -73,8 +73,8 @@ meth_Global         = [ :GN_DIRECT, :GN_DIRECT_L, :GN_DIRECT_L_RAND, :GN_DIRECT_
                         :GN_DIRECT_L_NOSCAL, :GN_DIRECT_L_RAND_NOSCAL, :GN_ORIG_DIRECT, 
                         :GN_ORIG_DIRECT_L, :GN_ISRES, :GN_ESCH, :GN_CRS2_LM  ]
 meth_GlobalBroken   = [:GD_STOGO, :GD_STOGO_RAND]
-meth_GlobalLocalOpt = [:GN_MLSL_LDS, :GN_MLSL, :G_MLSL, :G_MLSL_LDS, :GD_MLSL_LDS, :GD_MLSL, 
-            :AUGLAG, :AUGLAG_EQ]
+meth_GlobalLocalOpt = [:GN_MLSL_LDS, :GN_MLSL, :G_MLSL, :G_MLSL_LDS, :GD_MLSL_LDS, 
+                       :GD_MLSL, :AUGLAG, :AUGLAG_EQ]
 
 # Derivative-based routines
 methDerivConstr = [:LD_MMA , :LD_SLSQP, :LD_CCSAQ ]
