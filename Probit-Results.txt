@@ -1,0 +1,716 @@
+-------------------------------------------------------------------
+Results for Homework 5
+Started run at 2015-02-20T17:54:54
+-------------------------------------------------------------------
+
+------------- doing method bfgs ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 522499.94328
+Eval 3: value = 522499.36799
+Eval 4: value = 604556.58837
+Eval 5: value = 605038.81929
+Eval 10: value = 1.24310289294e6
+Eval 20: value = 53054.23414
+Eval 30: value = 12063.4039
+Eval 40: value = 9433.57492
+Eval 50: value = 9297.41048
+
+63 evaluations over 2.194429952 seconds 
+
+ Results of Optimization Algorithm
+ * Algorithm: BFGS
+ * Starting Point: [0.0,0.0,0.0,0.0]
+ * Minimum: [1.9941319641020363,2.9734023667622855,4.966838258399663,9.948946629220615]
+ * Value of Function at Minimum: 9005.585251
+ * Iterations: 11
+ * Convergence: true
+   * |x - x'| < 1.0e-32: false
+   * |f(x) - f(x')| / |f(x)| < 1.0e-08: true
+   * |g(x)| < 1.0e-08: false
+   * Exceeded Maximum Number of Iterations: false
+ * Objective Function Calls: 63
+ * Gradient Call: 63
+
+------------- doing method l_bfgs ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 522499.94328
+Eval 3: value = 522499.36799
+Eval 4: value = 604556.58837
+Eval 5: value = 605038.81929
+Eval 10: value = 1.24310289294e6
+Eval 20: value = 53054.23414
+Eval 30: value = 12063.4039
+Eval 40: value = 9433.57492
+Eval 50: value = 9297.41048
+
+74 evaluations over 2.56712781 seconds 
+
+ Results of Optimization Algorithm
+ * Algorithm: L-BFGS
+ * Starting Point: [0.0,0.0,0.0,0.0]
+ * Minimum: [1.9941318188612838,2.9734022058745952,4.966836664222613,9.94894551480561]
+ * Value of Function at Minimum: 9005.585251
+ * Iterations: 14
+ * Convergence: true
+   * |x - x'| < 1.0e-32: false
+   * |f(x) - f(x')| / |f(x)| < 1.0e-08: false
+   * |g(x)| < 1.0e-08: true
+   * Exceeded Maximum Number of Iterations: false
+ * Objective Function Calls: 74
+ * Gradient Call: 74
+
+------------- doing method nelder_mead ---------------
+
+
+Eval 1: value = 83812.57347
+Eval 2: value = 71567.64066
+Eval 3: value = 66245.48813
+Eval 4: value = 45622.50667
+Eval 5: value = 69314.71806
+Eval 10: value = 42582.02377
+Eval 20: value = 21968.70994
+Eval 30: value = 10620.66202
+Eval 40: value = 9684.70017
+Eval 50: value = 9579.63565
+Eval 75: value = 9055.45141
+Eval 100: value = 9005.73391
+Eval 125: value = 9005.58942
+Eval 150: value = 9005.58547
+Eval 175: value = 9005.58526
+
+182 evaluations over 2.580744347 seconds 
+
+ Results of Optimization Algorithm
+ * Algorithm: Nelder-Mead
+ * Starting Point: [0.0,0.0,0.0,0.0]
+ * Minimum: [1.994091985908281,2.9733706842878846,4.966727349214394,9.948782352480595]
+ * Value of Function at Minimum: 9005.585254
+ * Iterations: 100
+ * Convergence: false
+   * |x - x'| < NaN: false
+   * |f(x) - f(x')| / |f(x)| < 1.0e-08: false
+   * |g(x)| < NaN: false
+   * Exceeded Maximum Number of Iterations: true
+ * Objective Function Calls: 181
+ * Gradient Call: 0
+
+------------- doing method newton ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 28730.92381
+Eval 3: value = 11417.86096
+Eval 4: value = 51328.45191
+Eval 5: value = 11419.5006
+Eval 10: value = 9006.15142
+
+18 evaluations over 1.798683836 seconds 
+
+ Results of Optimization Algorithm
+ * Algorithm: Newton's Method
+ * Starting Point: [0.0,0.0,0.0,0.0]
+ * Minimum: [1.9941318187095596,2.973402205634398,4.966836663816231,9.948945514260659]
+ * Value of Function at Minimum: 9005.585251
+ * Iterations: 5
+ * Convergence: true
+   * |x - x'| < 1.0e-32: false
+   * |f(x) - f(x')| / |f(x)| < 1.0e-08: true
+   * |g(x)| < 1.0e-08: false
+   * Exceeded Maximum Number of Iterations: false
+ * Objective Function Calls: 18
+ * Gradient Call: 18
+
+------------- doing method simulated_annealing ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 123188.93136
+Eval 3: value = 275696.24803
+Eval 4: value = 148564.55174
+Eval 5: value = 100940.93763
+Eval 10: value = 73937.55541
+Eval 20: value = 79985.70438
+Eval 30: value = 29580.24635
+Eval 40: value = 21475.82243
+Eval 50: value = 22716.73745
+Eval 75: value = 14961.12582
+Eval 100: value = 15146.27875
+
+101 evaluations over 1.459202674 seconds 
+
+ Results of Optimization Algorithm
+ * Algorithm: Simulated Annealing
+ * Starting Point: [0.0,0.0,0.0,0.0]
+ * Minimum: [0.8223543620693234,1.160224982618416,2.483347488993278,5.324613469479287]
+ * Value of Function at Minimum: 12121.635263
+ * Iterations: 100
+ * Convergence: false
+   * |x - x'| < NaN: false
+   * |f(x) - f(x')| / |f(x)| < NaN: false
+   * |g(x)| < NaN: false
+   * Exceeded Maximum Number of Iterations: true
+ * Objective Function Calls: 101
+ * Gradient Call: 0
+
+------------- doing method GN_DIRECT ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.16680026714e6
+Eval 3: value = 1.43756507177e6
+Eval 4: value = 9.07917607571e6
+Eval 5: value = 6.87730707388e6
+Eval 10: value = 1.508524611779e7
+Eval 20: value = 1.82594668366e6
+Eval 30: value = 3.06148513208e6
+Eval 40: value = 225937.84331
+Eval 50: value = 203967.52174
+Eval 75: value = 34186.0066
+Eval 100: value = 1.43756507177e6
+
+100 evaluations over 1.357789567 seconds. Returned MAXEVAL_REACHED
+		value = 27727.59006 at [0.0,0.0,1.646,2.469]
+
+------------- doing method GN_DIRECT_L ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.16680026714e6
+Eval 3: value = 1.43756507177e6
+Eval 4: value = 9.07917607571e6
+Eval 5: value = 6.87730707388e6
+Eval 10: value = 1.508524611779e7
+Eval 20: value = 3.06148513208e6
+Eval 30: value = 1.06087528667e6
+Eval 40: value = 169531.57744
+Eval 50: value = 8.87354318267e6
+Eval 75: value = 948653.61225
+Eval 100: value = 7.8059045317e6
+
+100 evaluations over 1.389880935 seconds. Returned MAXEVAL_REACHED
+		value = 27727.59006 at [0.0,0.0,1.646,2.469]
+
+------------- doing method GN_DIRECT_L_RAND ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.16680026714e6
+Eval 3: value = 1.43756507177e6
+Eval 4: value = 9.07917607571e6
+Eval 5: value = 6.87730707388e6
+Eval 10: value = 5.22872737518e6
+Eval 20: value = 3.06148513208e6
+Eval 30: value = 690051.88976
+Eval 40: value = 5.64204297879e6
+Eval 50: value = 300548.0422
+Eval 75: value = 18630.22385
+Eval 100: value = 12597.36265
+
+100 evaluations over 1.374154098 seconds. Returned MAXEVAL_REACHED
+		value = 12597.36265 at [1.646,2.469,2.469,6.584]
+
+------------- doing method GN_DIRECT_NOSCAL ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.16680026714e6
+Eval 3: value = 1.43756507177e6
+Eval 4: value = 9.07917607571e6
+Eval 5: value = 6.87730707388e6
+Eval 10: value = 1.508524611779e7
+Eval 20: value = 3.06148513208e6
+Eval 30: value = 1.06087528667e6
+Eval 40: value = 169531.57744
+Eval 50: value = 8.87354318267e6
+Eval 75: value = 948653.61225
+Eval 100: value = 7.8059045317e6
+
+100 evaluations over 1.388710395 seconds. Returned MAXEVAL_REACHED
+		value = 27727.59006 at [0.0,0.0,1.646,2.469]
+
+------------- doing method GN_DIRECT_L_NOSCAL ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.16680026714e6
+Eval 3: value = 1.43756507177e6
+Eval 4: value = 9.07917607571e6
+Eval 5: value = 6.87730707388e6
+Eval 10: value = 1.508524611779e7
+Eval 20: value = 3.06148513208e6
+Eval 30: value = 1.06087528667e6
+Eval 40: value = 169531.57744
+Eval 50: value = 8.87354318267e6
+Eval 75: value = 948653.61225
+Eval 100: value = 7.8059045317e6
+
+100 evaluations over 1.368685293 seconds. Returned MAXEVAL_REACHED
+		value = 27727.59006 at [0.0,0.0,1.646,2.469]
+
+------------- doing method GN_DIRECT_L_RAND_NOSCAL ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.16680026714e6
+Eval 3: value = 1.43756507177e6
+Eval 4: value = 9.07917607571e6
+Eval 5: value = 6.87730707388e6
+Eval 10: value = 1.508524611779e7
+Eval 20: value = 3.06148513208e6
+Eval 30: value = 1.06087528667e6
+Eval 40: value = 169531.57744
+Eval 50: value = 8.87354318267e6
+Eval 75: value = 948653.61225
+Eval 100: value = 7.8059045317e6
+
+100 evaluations over 1.3908795 seconds. Returned MAXEVAL_REACHED
+		value = 27727.59006 at [0.0,0.0,1.646,2.469]
+
+------------- doing method GN_ORIG_DIRECT ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 1.43756507177e6
+Eval 3: value = 2.16680026714e6
+Eval 4: value = 6.87730707388e6
+Eval 5: value = 9.07917607571e6
+Eval 10: value = 4.37951996629e6
+Eval 20: value = 2.70728728215e6
+Eval 30: value = 4.80721762063e6
+Eval 40: value = 1.21142553615e6
+Eval 50: value = 2.39527430227e6
+Eval 75: value = 4.67868281134e6
+Eval 100: value = 387015.09297
+
+105 evaluations over 1.430492278 seconds. Returned MAXEVAL_REACHED
+		value = 34186.0066 at [0.0,0.0,2.469,2.469]
+
+------------- doing method GN_ORIG_DIRECT_L ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 1.43756507177e6
+Eval 3: value = 2.16680026714e6
+Eval 4: value = 6.87730707388e6
+Eval 5: value = 9.07917607571e6
+Eval 10: value = 4.37951996629e6
+Eval 20: value = 2.70728728215e6
+Eval 30: value = 445080.19773
+Eval 40: value = 8.25335989789e6
+Eval 50: value = 153150.8917
+Eval 75: value = 203967.52174
+Eval 100: value = 28273.74818
+
+101 evaluations over 1.401331697 seconds. Returned MAXEVAL_REACHED
+		value = 27727.59006 at [0.0,0.0,1.646,2.469]
+
+------------- doing method GN_ISRES ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 6.33309622016e6
+Eval 3: value = 7.97319507019e6
+Eval 4: value = 5.39487770026e6
+Eval 5: value = 1.53877230653e6
+Eval 10: value = 6.01474930398e6
+Eval 20: value = 1.6064061933e6
+Eval 30: value = 5.70825521586e6
+Eval 40: value = 8.41366791293e6
+Eval 50: value = 7.71963075999e6
+Eval 75: value = 6.47055723949e6
+Eval 100: value = 5.85907090221e6
+
+100 evaluations over 1.328751864 seconds. Returned MAXEVAL_REACHED
+		value = 69314.71806 at [0.0,0.0,0.0,0.0]
+
+------------- doing method GN_ESCH ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 6.66623627726e6
+Eval 3: value = 1.257011465698e7
+Eval 4: value = 6.30274696195e6
+Eval 5: value = 5.50749985057e6
+Eval 10: value = 5.02129834807e6
+Eval 20: value = 5.12038714806e6
+Eval 30: value = 5.93691208342e6
+Eval 40: value = 4.03066558347e6
+Eval 50: value = 7.68722851681e6
+Eval 75: value = 5.1595252253e6
+Eval 100: value = 4.86038237138e6
+
+100 evaluations over 1.318100508 seconds. Returned MAXEVAL_REACHED
+		value = 69314.71806 at [0.0,0.0,0.0,0.0]
+
+------------- doing method GN_CRS2_LM ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 3.10618712483e6
+Eval 3: value = 9.55058869539e6
+Eval 4: value = 5.52424866117e6
+Eval 5: value = 6.26545311827e6
+Eval 10: value = 4.42474104635e6
+Eval 20: value = 8.81559134224e6
+Eval 30: value = 7.5760368093e6
+Eval 40: value = 6.43832739236e6
+Eval 50: value = 3.61918050853e6
+Eval 75: value = 3.73275295143e6
+Eval 100: value = 5.65052483568e6
+
+100 evaluations over 1.336540113 seconds. Returned MAXEVAL_REACHED
+		value = 69314.71806 at [0.0,0.0,0.0,0.0]
+
+------------- doing method LN_PRAXIS ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 69314.71806
+Eval 3: value = 69314.71806
+Eval 4: value = 2.16680026714e6
+Eval 5: value = 1.903509465181e7
+Eval 10: value = 6.57530526999e6
+Eval 20: value = 1.018705196886e7
+Eval 30: value = 34089.64305
+Eval 40: value = 14203.41003
+Eval 50: value = 11462.75753
+Eval 75: value = 9009.52763
+Eval 100: value = 9005.58629
+
+103 evaluations over 1.442396278 seconds. Returned MAXEVAL_REACHED
+		value = 9005.58627 at [1.993,2.972,4.965,9.945]
+
+------------- doing method LN_NEWUOA_BOUND ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 1.43756507177e6
+Eval 3: value = 8.26079361645e6
+Eval 4: value = 7.12815094667e6
+Eval 5: value = 1.87995177839e6
+Eval 10: value = 29060.54578
+Eval 20: value = 14422.04996
+Eval 30: value = 10904.48767
+Eval 40: value = 9213.04678
+Eval 50: value = 9025.93952
+Eval 75: value = 9005.58642
+Eval 100: value = 9005.58525
+
+100 evaluations over 1.410054436 seconds. Returned MAXEVAL_REACHED
+		value = 9005.58525 at [1.994,2.973,4.967,9.949]
+
+------------- doing method LN_NELDERMEAD ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 1.43756507177e6
+Eval 3: value = 8.26079361645e6
+Eval 4: value = 7.12815094667e6
+Eval 5: value = 1.87995177839e6
+Eval 10: value = 5.26532434548e6
+Eval 20: value = 756417.61043
+Eval 30: value = 874299.16741
+Eval 40: value = 23636.69577
+Eval 50: value = 11373.09042
+Eval 75: value = 9136.83738
+Eval 100: value = 9010.13958
+
+100 evaluations over 1.414881108 seconds. Returned MAXEVAL_REACHED
+		value = 9009.99922 at [1.99,3.007,4.999,10.06]
+
+------------- doing method LN_SBPLX ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 1.43756507177e6
+Eval 3: value = 8.26079361645e6
+Eval 4: value = 4.20139462005e6
+Eval 5: value = 7.38053337393e6
+Eval 10: value = 3.11192080809e6
+Eval 20: value = 4.72966150811e6
+Eval 30: value = 840595.17021
+Eval 40: value = 57086.37429
+Eval 50: value = 25639.16066
+Eval 75: value = 17272.32354
+Eval 100: value = 13144.15564
+
+100 evaluations over 1.428803872 seconds. Returned MAXEVAL_REACHED
+		value = 13135.65238 at [0.995,0.78,2.223,4.983]
+
+------------- doing method LN_BOBYQA ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 1.43756507177e6
+Eval 3: value = 8.26079361645e6
+Eval 4: value = 7.12815094667e6
+Eval 5: value = 1.87995177839e6
+Eval 10: value = 28843.75889
+Eval 20: value = 18986.33861
+Eval 30: value = 9837.7847
+Eval 40: value = 9803.33434
+Eval 50: value = 9449.95731
+Eval 75: value = 9010.89399
+Eval 100: value = 9005.58797
+
+100 evaluations over 1.375777321 seconds. Returned MAXEVAL_REACHED
+		value = 9005.58609 at [1.994,2.973,4.967,9.948]
+
+------------- doing method LN_COBYLA ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 1.43756507177e6
+Eval 3: value = 8.26079361645e6
+Eval 4: value = 7.12815094667e6
+Eval 5: value = 1.87995177839e6
+Eval 10: value = 2.08716024819e6
+Eval 20: value = 54394.37105
+Eval 30: value = 18254.1135
+Eval 40: value = 14369.86927
+Eval 50: value = 12676.77918
+Eval 75: value = 10805.11852
+Eval 100: value = 10090.1181
+
+100 evaluations over 1.439452731 seconds. Returned MAXEVAL_REACHED
+		value = 10082.14579 at [1.198,1.849,3.193,6.419]
+
+------------- doing method LN_AUGLAG ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 1.43756507177e6
+Eval 3: value = 8.26079361645e6
+Eval 4: value = 7.12815094667e6
+Eval 5: value = 1.87995177839e6
+Eval 10: value = 2.08716024819e6
+Eval 20: value = 54394.37105
+Eval 30: value = 18254.1135
+Eval 40: value = 14369.86927
+Eval 50: value = 12676.77918
+Eval 75: value = 10805.11852
+Eval 100: value = 10090.1181
+
+101 evaluations over 1.449915192 seconds. Returned MAXEVAL_REACHED
+		value = 10082.14579 at [1.198,1.849,3.193,6.419]
+
+------------- doing method LD_AUGLAG ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.98134358826e6
+Eval 3: value = 2.98134358826e6
+Eval 4: value = 2.98134358826e6
+Eval 5: value = 2.98134358826e6
+Eval 10: value = 54164.92581
+Eval 20: value = 9034.92166
+Eval 30: value = 9022.89868
+Eval 40: value = 179051.54685
+Eval 50: value = 9007.38505
+Eval 75: value = 9005.77784
+Eval 100: value = 9005.62595
+
+101 evaluations over 3.716285617 seconds. Returned MAXEVAL_REACHED
+		value = 9005.6187 at [1.989,2.966,4.954,9.925]
+
+------------- doing method LN_AUGLAG_EQ ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 1.43756507177e6
+Eval 3: value = 8.26079361645e6
+Eval 4: value = 7.12815094667e6
+Eval 5: value = 1.87995177839e6
+Eval 10: value = 2.08716024819e6
+Eval 20: value = 54394.37105
+Eval 30: value = 18254.1135
+Eval 40: value = 14369.86927
+Eval 50: value = 12676.77918
+Eval 75: value = 10805.11852
+Eval 100: value = 10090.1181
+
+101 evaluations over 1.468672394 seconds. Returned MAXEVAL_REACHED
+		value = 10082.14579 at [1.198,1.849,3.193,6.419]
+
+------------- doing method LD_AUGLAG_EQ ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.98134358826e6
+Eval 3: value = 2.98134358826e6
+Eval 4: value = 2.98134358826e6
+Eval 5: value = 2.98134358826e6
+Eval 10: value = 54164.92581
+Eval 20: value = 9034.92166
+Eval 30: value = 9022.89868
+Eval 40: value = 179051.54685
+Eval 50: value = 9007.38505
+Eval 75: value = 9005.77784
+Eval 100: value = 9005.62595
+
+101 evaluations over 3.675072361 seconds. Returned MAXEVAL_REACHED
+		value = 9005.6187 at [1.989,2.966,4.954,9.925]
+
+------------- doing method LD_LBFGS ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.29975991034e6
+Eval 3: value = 197612.8752
+Eval 4: value = 39122.13348
+Eval 5: value = 16532.28355
+Eval 10: value = 9038.56623
+
+19 evaluations over 0.677324401 seconds. Returned FTOL_REACHED
+		value = 9005.58525 at [1.994,2.973,4.967,9.949]
+
+------------- doing method LD_VAR1 ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.29975991034e6
+Eval 3: value = 197612.8752
+Eval 4: value = 39122.13348
+Eval 5: value = 16532.28355
+Eval 10: value = 9070.38039
+Eval 20: value = 9005.58526
+
+29 evaluations over 1.076960758 seconds. Returned FTOL_REACHED
+		value = 9005.58525 at [1.994,2.973,4.967,9.949]
+
+------------- doing method LD_VAR2 ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.29975991034e6
+Eval 3: value = 197612.8752
+Eval 4: value = 39122.13348
+Eval 5: value = 16532.28355
+Eval 10: value = 9070.38039
+Eval 20: value = 9005.58526
+
+29 evaluations over 1.073800024 seconds. Returned FTOL_REACHED
+		value = 9005.58525 at [1.994,2.973,4.967,9.949]
+
+------------- doing method LD_TNEWTON ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 69314.71679
+Eval 3: value = 35254.90899
+Eval 4: value = 35254.90836
+Eval 5: value = 35254.90864
+Eval 10: value = 13970.53419
+Eval 20: value = 9420.79002
+Eval 30: value = 9005.86593
+Eval 40: value = 9005.58525
+
+41 evaluations over 1.497510662 seconds. Returned SUCCESS
+		value = 9005.58525 at [1.994,2.973,4.967,9.949]
+
+------------- doing method LD_TNEWTON_RESTART ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.29975991034e6
+Eval 3: value = 197612.8752
+Eval 4: value = 39122.13348
+Eval 5: value = 39122.13254
+Eval 10: value = 9788.93891
+Eval 20: value = 9005.77523
+Eval 30: value = 9005.58525
+
+35 evaluations over 1.32096833 seconds. Returned SUCCESS
+		value = 9005.58525 at [1.994,2.973,4.967,9.949]
+
+------------- doing method LD_TNEWTON_PRECOND ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 69314.71679
+Eval 3: value = 35254.90899
+Eval 4: value = 35254.90838
+Eval 5: value = 35254.90874
+Eval 10: value = 13934.91277
+Eval 20: value = 9037.61532
+Eval 30: value = 9005.58528
+Eval 40: value = 9005.58525
+
+40 evaluations over 1.44803151 seconds. Returned SUCCESS
+		value = 9005.58525 at [1.994,2.973,4.967,9.949]
+
+------------- doing method LD_TNEWTON_PRECOND_RESTART ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.29975991034e6
+Eval 3: value = 197612.8752
+Eval 4: value = 39122.13348
+Eval 5: value = 39122.13268
+Eval 10: value = 9503.91542
+Eval 20: value = 9005.58701
+
+28 evaluations over 1.028676833 seconds. Returned SUCCESS
+		value = 9005.58525 at [1.994,2.973,4.967,9.949]
+
+------------- doing method LD_MMA ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.98134358826e6
+Eval 3: value = 2.98134358826e6
+Eval 4: value = 2.98134358826e6
+Eval 5: value = 2.98134358826e6
+Eval 10: value = 54164.92581
+Eval 20: value = 9034.92166
+Eval 30: value = 9022.89868
+Eval 40: value = 179051.54685
+Eval 50: value = 9007.38505
+Eval 75: value = 9005.77784
+Eval 100: value = 9005.62595
+
+100 evaluations over 3.715190525 seconds. Returned MAXEVAL_REACHED
+		value = 9005.6187 at [1.989,2.966,4.954,9.925]
+
+------------- doing method LD_SLSQP ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.78517499227e6
+Eval 3: value = 4.29831151909e6
+Eval 4: value = 334437.10118
+Eval 5: value = 69000.01016
+Eval 10: value = 90846.84306
+Eval 20: value = 21156.73618
+Eval 30: value = 9007.79238
+Eval 40: value = 9005.58525
+Eval 50: value = 9005.58525
+
+52 evaluations over 1.410140701 seconds. Returned XTOL_REACHED
+		value = 9005.58525 at [1.994,2.973,4.967,9.949]
+
+------------- doing method LD_CCSAQ ---------------
+
+
+Eval 1: value = 69314.71806
+Eval 2: value = 2.78497464593e6
+Eval 3: value = 2.78497464593e6
+Eval 4: value = 2.78497464593e6
+Eval 5: value = 2.78497464593e6
+Eval 10: value = 137073.07198
+Eval 20: value = 9136.97316
+Eval 30: value = 11282.31738
+Eval 40: value = 28894.90182
+Eval 50: value = 9019.90213
+Eval 75: value = 9010.94843
+Eval 100: value = 9006.33905
+
+100 evaluations over 3.742855201 seconds. Returned MAXEVAL_REACHED
+		value = 9006.33905 at [1.971,2.938,4.907,9.842]
+-------------------------------------------------------------------
+Finished run at 2015-02-20T17:55:58
+-------------------------------------------------------------------

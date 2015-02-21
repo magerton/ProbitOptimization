@@ -1,0 +1,49 @@
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{listings}
+
+%%
+%% Julia definition (c) 2014 Jubobs
+%%
+\lstdefinelanguage{Julia}%
+  {morekeywords={abstract,break,case,catch,const,continue,do,else,elseif,%
+      end,export,false,for,function,immutable,import,importall,if,in,%
+      macro,module,otherwise,quote,return,switch,true,try,type,typealias,%
+      using,while,%
+      exit,whos,edit,load,is,isa,isequal,typeof,tuple,ntuple,uid,hash,finalizer,convert,promote,
+      subtype,typemin,typemax,realmin,realmax,sizeof,eps,promote_type,method_exists,applicable,
+      invoke,dlopen,dlsym,system,error,throw,assert,new,Inf,Nan,pi,im,begin,while,for,in,return,
+      break,continue,macro,quote,let,if,elseif,else,try,catch,end,bitstype,ccall,do,using,module,
+      import,export,importall,baremodule,immutable,local,global,const,Bool,Int,Int8,Int16,Int32,
+      Int64,Uint,Uint8,Uint16,Uint32,Uint64,Float32,Float64,Complex64,Complex128,Any,Nothing,None,
+      function,type,typealias,abstract},%
+   sensitive=true,%
+   alsoother={$}, % $
+   morecomment=[l]\#,%
+   morecomment=[n]{\#=}{=\#},%
+   morestring=[s]{"}{"},%
+   morestring=[m]{'}{'},%
+}[keywords,comments,strings]%
+
+\lstset{%
+    language         = Julia,
+    basicstyle       = \scriptsize\ttfamily,
+    keywordstyle     = \bfseries\color{blue},
+    stringstyle      = \color{magenta},
+    commentstyle     = \color{ForestGreen},
+    numberstyle      = \color{Gray},
+    showstringspaces = false,
+	showtabs         = false,
+	upquote          = false,
+    breaklines       = true,
+    extendedchars    = true,
+}
+
+\begingroup
+  \catcode0=12 %
+  \makeatletter
+  \g@addto@macro\lst@DefEC{%
+    \lst@CCECUse\lst@ProcessLetter
+   αβγδεϵζηθϑγκλμνξπϖρϱσςτυϕφχψωΓΔΘΛΞΠΣΥΦΨΩ∇% *** add Unicode characters ***
+    ^^00% end marker
+  }%
+\endgroup

@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+
+\usepackage{metalogo}
+\usepackage{fontspec}
+\setmonofont{Consolas}
+
+\input{julia-listing.tex}
+
+\author{Mark Agerton}
+\title{Optimization demo}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+This runs through a number of optimization routines using the \verb+Optim+ and \verb+NLopt+ packages for \verb+Julia+. It also outputs the code using the \verb+listings+ package and the system true-type font Consolas, which requires the document be compiled w/ \XeLaTeX
+
+\section{Code}
+
+\lstinputlisting[frame=single,caption=Main Call]{../Probit-Optim.jl}
+\lstinputlisting[frame=single,caption=Functions]{../Probit-Functions.jl}
+\clearpage
+\lstinputlisting[frame=single,caption=Results]{../Probit-Results.txt}
+
+
+\end{document}
