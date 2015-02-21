@@ -4,3 +4,4 @@ writeup
 !*.tex
 !*.pdf
 *sublime-workspace
+.DS_Store
