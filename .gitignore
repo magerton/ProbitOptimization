@@ -1,6 +1,5 @@
 *.zip
-./Old
 ./Old/*
-./writeup/*synctex.gz
-./writeup/*.log
-./writeup/*.aux
+./writeup/*
+!*.tex
+!*.pdf
