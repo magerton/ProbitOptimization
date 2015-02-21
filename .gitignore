@@ -1,5 +1,6 @@
 *.zip
-./Old/*
-./writeup/*
+Old
+writeup
 !*.tex
 !*.pdf
+*sublime-workspace

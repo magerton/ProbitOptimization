@@ -5,7 +5,8 @@ using Optim
 using Dates
 
 # projectDir  = "~/OneDrive/Rice/Class/econ 515 - Labor/NLopt/"
-projectDir  = "C:/mja3/SkyDrive/Rice/Class/econ 515 - Labor/NLopt/"
+# projectDir  = "C:/mja3/SkyDrive/Rice/Class/econ 515 - Labor/NLopt/"
+projectDir  = "C:/Users/magerton/OneDrive/Rice/Class/econ 515 - Labor/NLopt/"
 cd(projectDir)
 
 # --------------------------------------------------------------

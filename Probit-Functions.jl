@@ -93,23 +93,17 @@ end
 
 
 function countPlus!()
-	global count += 1
-
-	if printCounter(count) 
-		println("Eval $(count)")
-	end
-
-	count
+  global count += 1
+  if printCounter(count) 
+    println("Eval $(count)")
+  end
 end
 
 
 function countPlus!(out::Float64)
-	global count += 1
-
-	if printCounter(count) 
-		println("Eval $(count): value = $(round(out,5))")
-	end
-
+  global count += 1
+  if printCounter(count) 
+    println("Eval $(count): value = $(round(out,5))")
+  end
     return count
-
 end
