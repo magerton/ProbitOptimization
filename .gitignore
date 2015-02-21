@@ -1,0 +1,6 @@
+*.zip
+./Old
+./Old/*
+./writeup/*synctex.gz
+./writeup/*.log
+./writeup/*.aux
